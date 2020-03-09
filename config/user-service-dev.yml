@@ -8,16 +8,14 @@ spring:
     name: user-service
   cloud:
     config:
-      override-none: true
-
+      override-none: true 
   rabbitmq:
     host: 192.168.64.3
     port: 5672
     username: admin
     password: admin
-    
-server:
-  port: 8101
+
+server:  port: 8101
   
 eureka:
   client:
@@ -28,4 +26,5 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh      
+        include: refresh
+      
