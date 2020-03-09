@@ -34,6 +34,6 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 500
+            timeoutInMilliseconds: 10500
 
 management:  endpoints:    web:      exposure:        include: hystrix.stream
